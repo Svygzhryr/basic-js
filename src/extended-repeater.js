@@ -23,8 +23,6 @@ function repeater(str, options) {
   options.additionRepeatTimes ? null : options.additionRepeatTimes = 1;
   options.additionSeparator ? null : options.additionSeparator = '|';
 
-
-
   for (let i = 1; i <= options.repeatTimes; i++) {
       nstr = nstr + str;
       for (let j = 1; j <= options.additionRepeatTimes; j++) {
